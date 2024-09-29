@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link type="image/png" sizes="32x32" rel="icon" href="../static/images/favicon_backpack.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style.css">
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>Иду-Еду</title>
+    {% endif %}
+</head>
+<body>
+<!--панель навигации начало-->
+<div class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img
+                    src="../static/images/logo.png"
+                    height="45"
+                    alt="ИДУ-ЕДУ"
+                    loading="lazy"
+            /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="content.html">ИДУ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="content.html">ЕДУ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Войти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--панель навигации конец-->
+
+
+<div class="container">
+
+    <!--хлебные крошки начало-->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><b>Главная</b></a></li>
+            <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+        </ol>
+    </nav>
+    <!--хлебные крошки конец-->
+
+    <div class="row">
+
+        <div class="col-lg-2 d-none d-md-block">
+        </div>
+
+        <div class="col-lg-8 col-md-12 col-ms-12">
+
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse_common_issues"
+                   role="button"
+                   aria-expanded="false" aria-controls="collapseExample">
+                    Правила поведения в походе
+                </a>
+            </p>
+            <div class="collapse" id="collapse_common_issues">
+                <div class="card card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Будьте чистоплотны</b>
+                            <br>Выполняем золотое правило туриста: &laquo;После нас стоянка остаётся чище, чем
+                            она была
+                            до&nbsp;нас&raquo;.
+                            <br>Если на&nbsp;маршруте предполагается разжигание костра (если это разрешено в&nbsp;данной
+                            местности), то&nbsp;часть мусора можно сжечь. Что не&nbsp;горит&nbsp;&mdash; несем
+                            до&nbsp;ближайшего
+                            мусорного бака, а&nbsp;еще лучше до&nbsp;дома, т.к. иногда баки (особенно на&nbsp;популярных
+                            маршрутах) бывают переполнены. Поэтому старайтесь не&nbsp;брать с&nbsp;собой&nbsp;то,
+                            что
+                            станет мусором и&nbsp;не&nbsp;сможет сгореть.
+                            <br>Под струёй родника и&nbsp;в&nbsp;водоемах нельзя мыть посуду, чистить зубы,
+                            стирать,
+                            мыться и&nbsp;прочее. Наберите воду и&nbsp;отойдите в&nbsp;сторонку, или ниже по&nbsp;течению.
+                            <br>Бытовая остановка&nbsp;&mdash; не&nbsp;повод оставлять туалетную бумагу под
+                            кустом.
+                            Заведите себе &laquo;поганый&raquo; пакет и&nbsp;складывайте туда свой мусор.
+                        </li>
+
+
+                        <li class="list-group-item"><b>Будьте вежливы</b>
+                            <br>Помним о&nbsp;простых правилах передвижения по&nbsp;тропам:
+                            <ul>
+                                <li>не&nbsp;обгоняем инструктора;</li>
+                                <li>уступаем дорогу тому, кто поднимается. Это не&nbsp;касается людей на&nbsp;лошадях:
+                                    лошадям всегда уступаем;
+                                </li>
+                                <li>уступаем дорогу более быстрым путешественникам;</li>
+                                <li>более выносливые участники идут в&nbsp;конце группы и&nbsp;не&nbsp;пытаются
+                                    прорваться вперед;
+                                </li>
+                                <li>не&nbsp;слушаем музыку через колонки. Если вы&nbsp;меломан и&nbsp;на&nbsp;природе&nbsp;&mdash;
+                                    используйте наушники.
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="list-group-item"><b>Будьте осторожны</b>
+                            <br>Помним о&nbsp;простых правилах безопасности:
+                            <ul>
+                                <li>не&nbsp;пробуйте неизвестные грибы, ягоды, плоды;</li>
+                                <li>не&nbsp;нюхайте и&nbsp;не&nbsp;собирайте неизвестные растения;</li>
+                                <li>не&nbsp;подходите близко к&nbsp;обрывам;</li>
+                                <li>не&nbsp;тревожьте животных.</li>
+                            </ul>
+
+                        </li>
+
+                        <li class="list-group-item"><b>Будьте послушны</b>
+                            <br>Если идем с&nbsp;инструктором, то&nbsp;беспрекословно выполняем поручения
+                            инструктора.
+                            Если есть предложения или вопросы&nbsp;&mdash; задаем, но&nbsp;с&nbsp;инструктором
+                            не&nbsp;спорим.
+                            Привал&nbsp;&mdash; с&nbsp;разрешения инструктора. Купание&nbsp;&mdash; с&nbsp;разрешения
+                            инструктора. Отклонение от&nbsp;маршрута&nbsp;&mdash; с&nbsp;разрешения инструктора.
+                            Всё в&nbsp;походе&nbsp;&mdash;
+                            только с&nbsp;разрешения инструктора.
+                        </li>
+
+                        <li class="list-group-item"><b>Будьте открыты</b>
+                            <br>Если идем в&nbsp;группе и&nbsp;вам тяжело идти, у&nbsp;вас что-то болит, то&nbsp;скажите
+                            об&nbsp;этом инструктору. Он&nbsp;поможет. Например, отрегулирует или разгрузит
+                            рюкзак,
+                            сделает внеплановый привал, изменит темп ходьбы. Если натирает обувь&nbsp;&mdash; не&nbsp;ждите
+                            до&nbsp;волдырей. Как только заметили покраснение, сразу заклеивайте проблемное
+                            место
+                            пластырем на&nbsp;тканевой основе, без прокладок из&nbsp;бинта или ваты. Осмотрите
+                            ноги, и&nbsp;заклейте
+                            также все покрасневшие места&nbsp;&mdash; они всё равно начнут натирать позже. Если
+                            своего
+                            пластыря нет&nbsp;&mdash; не&nbsp;стесняйтесь и&nbsp;просите у&nbsp;инструктора.
+                            Также если у&nbsp;вас есть что-то из&nbsp;медикаментов или снаряжения, чем вы&nbsp;можете
+                            поделиться (например, сухие носки, пакеты...), то&nbsp;не&nbsp;жадничайте. Возможно,
+                            что
+                            через какое-то время и&nbsp;вам что-то понадобится от&nbsp;участников группы.
+                        </li>
+                    </ul>
+                </div>
+                <br>
+            </div>
+
+
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapse_what_take_for_hiking_1_day"
+                   role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img class="rounded float-start" src="../static/images/hiker.png">
+                    <span class="align-middle">Что взять с собой в однодевный пеший поход</span>
+                </a>
+            </p>
+            <div class="collapse" id="collapse_what_take_for_hiking_1_day">
+                <div class="card card-body">
+                    В&nbsp;однодневный пеший поход нужно взять:
+
+                    <ul>
+                        <li>вода или чай/кофе в&nbsp;термосе;</li>
+                        <li>перекус;</li>
+                        <li>удобный рюкзак;</li>
+                        <li>пауэрбанк, если думаете, что зарядки смартфона на&nbsp;один день может не&nbsp;хватить;</li>
+                        <li>деньги или карту. Если предполагается пользоваться общественным транспортом, то&nbsp;лучше
+                            взять
+                            наличные, т.к.&nbsp;не&nbsp;во&nbsp;всех автобусах принимают карты;
+                        </li>
+                        <li>сидушка для отдыха на&nbsp;привале;</li>
+                        <li>нож;</li>
+                        <li>запасная обувь, одежда и&nbsp;дождевик, если ожидается изменение погоды (резиновые
+                            сапоги
+                            осенью или весной, а&nbsp;летом можно взять обычные шлепки, запасные носки, флиска,
+                            куртка... &mdash;&nbsp;зависит от&nbsp;сезона);
+                        </li>
+                        <li>средство от&nbsp;клещей/москитов&nbsp;&mdash; по&nbsp;необходимости;</li>
+                        <li>прочее в&nbsp;зависимости от&nbsp;сезона и&nbsp;маршрута.</li>
+                    </ul>
+
+                </div>
+                <br>
+            </div>
+
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse"
+                   href="#collapse_what_take_for_riding_on_bike_1_day"
+                   role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <img class="rounded float-start" src="../static/images/bicycle.png">
+                    <span class="align-middle">Что взять с собой в однодевный велопоход</span>
+                </a>
+            </p>
+            <div class="collapse" id="collapse_what_take_for_riding_on_bike_1_day">
+                <div class="card card-body">
+                    В однодневный велопоход нужно взять:
+                    <ul>
+                        <li>вода или чай/кофе в&nbsp;термосе;</li>
+                        <li>комплект для ремонта велосипеда, насос;</li>
+                        <li>перекус;</li>
+                        <li>велобагажник;</li>
+                        <li>смартфон с&nbsp;картой местности;</li>
+                        <li>пауэрбанк, если думаете, что зарядки смартфона на&nbsp;один день может не&nbsp;хватить;</li>
+                        <li>деньги или карту;</li>
+                        <li>нож;</li>
+                        <li>запасная одежда и&nbsp;дождевик, если ожидается изменение погоды (запасные носки,
+                            майка,
+                            флиска, куртка... &mdash;&nbsp;зависит от&nbsp;сезона);
+                        </li>
+                        <li>средство от&nbsp;клещей/москитов&nbsp;&mdash; по&nbsp;необходимости;</li>
+                        <li>прочее в&nbsp;зависимости от&nbsp;сезона и&nbsp;маршрута.</li>
+                    </ul>
+                </div>
+                <br>
+            </div>
+
+
+            <div class="col-lg-2 d-none d-md-block">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="fixed-bottom">
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #3AA6D0;">
+            © 2024 Copyright:
+            <a class="text-body" href="index.html">ИДУ-ЕДУ</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</div>
+<!--футер конец-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+</html>
