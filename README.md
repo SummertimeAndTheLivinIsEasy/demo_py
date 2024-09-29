@@ -6,7 +6,6 @@
 ### 5. Flask
 ### 6. SQLAlchemy
 
-![Здесь должно быть фото](https://github.com/SummertimeAndTheLivinIsEasy/demo_py/blob/main/static/images/hiker_dark.png)
 ## Этапы проекта:
 ### 1. Создание сайта на HTML, CSS, Bootstrap
 ### 2. Копирование проекта в репозиторий на Github
@@ -15,3 +14,4 @@
 
 ## Описание проекта:
 ### Сайт для развития пешего и велотуризма в Санкт-Петербурге и Ленинградской области. Включает в себя фильтры по протяженности, сложности и длительности маршрута. 
+![Здесь должно быть фото](https://github.com/SummertimeAndTheLivinIsEasy/demo_py/blob/main/static/images/hiker_dark.png)
