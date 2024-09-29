@@ -6,7 +6,7 @@
 ### 5. Flask
 ### 6. SQLAlchemy
 
-![Здесь должно быть фото](/assets/static/images/hiker_dark.png)
+![Здесь должно быть фото](https://github.com/SummertimeAndTheLivinIsEasy/demo_py/blob/main/static/images/hiker_dark.png)
 ## Этапы проекта:
 ### 1. Создание сайта на HTML, CSS, Bootstrap
 ### 2. Копирование проекта в репозиторий на Github
