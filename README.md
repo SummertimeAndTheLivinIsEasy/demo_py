@@ -1,10 +1,12 @@
 # Сайт для отработки навыков работы со следующими инструментами:
 ### 1. HTML
 ### 2. CSS
-### 1. Bootstrap
-### 1. Git
+### 3. Bootstrap
+### 4. Git
+### 5. Flask
+### 6. SQLAlchemy
 
-![Здесь должно быть фото](/assets/images/hiker_dark.png)
+![Здесь должно быть фото](/assets/static/images/hiker_dark.png)
 ## Этапы проекта:
 ### 1. Создание сайта на HTML, CSS, Bootstrap
 ### 2. Копирование проекта в репозиторий на Github
